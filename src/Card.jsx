@@ -35,6 +35,7 @@ function Card({e,cart,setCart}) {
                             {/*<!-- Product actions--> */}
                             <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
                                 <div className="text-center">
+                                    {/*using toggle for change the button actions */}
                                     {toggle?(
                                         <button className="btn btn-outline-dark mt-auto" href="#" onClick={()=>{
                                             setCart(++cart)

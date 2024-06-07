@@ -23,6 +23,7 @@ function Nav({cart,setCart}) {
                         </li>
                     </ul>
                     <form className="d-flex">
+                        {/* cart button ui change using state method */}
                         <button className="btn btn-outline-dark" type="submit" onClick={()=>{
                             alert(`${cart} products ordered successfully`)
                             setCart(0)

@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Footer() {
+  //this is only for design in the ui
   return <>
   
   {/*<!-- Footer--> */}

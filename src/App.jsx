@@ -6,6 +6,7 @@ import Footer from './Footer'
 
 function App() {
 
+  //products details 
   let products =[
     {
       "pName": "iPhone 9",
@@ -257,6 +258,7 @@ function App() {
     }
   ]
 
+  {/*using state for changing the cart in ui */}
   const [cart,setCart] = useState(0)
   
   return (
@@ -264,20 +266,25 @@ function App() {
       <div className='row'>
 
         {/*nav bar */}
+        {/*nav bar showing the cart quantity */}
 
         <Nav cart={cart} setCart={setCart}></Nav>
 
 
         {/*header*/}
+        {/*header is only for design in the ui */}
 
         <Header></Header>
 
         {/*secction */}
+        {/*card design  */}
         <section className="py-5">
             <div className="container px-4 px-lg-5 mt-5">
                 <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                  {/*iterate the products for the card using map */}
                   {
                     products.map((e,i)=>{
+                      //every card has an unique key
                       return <Card e={e} cart={cart} setCart={setCart} key={i}></Card>
                     })
                   }
@@ -288,6 +295,7 @@ function App() {
 
 
         {/*Footer */}
+        {/*footer is for desing in the ui */}
 
         <Footer></Footer>
 

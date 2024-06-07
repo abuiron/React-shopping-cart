@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Header() {
+    //this is only for design
   return <>
   {/*<!-- Header--> */}
         <header className="bg-dark py-5">
