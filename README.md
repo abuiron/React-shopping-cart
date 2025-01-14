@@ -2,6 +2,14 @@
 
 This repository contains a shopping cart application built with React and Vite. The application mimics the functionality of popular e-commerce platforms like Amazon and Flipkart. Users can browse products, add them to the cart, and remove them from the cart. The cart's total value is dynamically updated based on user interactions.
 
+## HomePage
+
+![homepage](https://github.com/abuiron/React-shopping-cart/blob/main/public/front.png?raw=true)
+
+## Deployment
+
+The application is deployed and can be accessed at: [https://abuironproducts.netlify.app](https://abuironproducts.netlify.app)
+
 ## Features
 
 - Browse products and view details.
@@ -9,10 +17,6 @@ This repository contains a shopping cart application built with React and Vite. 
 - Remove products from the cart.
 - Cart total value updates in real-time.
 - Responsive design using React Bootstrap.
-
-## Deployment
-
-The application is deployed and can be accessed at: [https://abuironproducts.netlify.app](https://abuironproducts.netlify.app)
 
 ## Installation
 
